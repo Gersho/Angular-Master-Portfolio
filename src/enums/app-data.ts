@@ -629,9 +629,9 @@ const MastersDegree: EducationSection = {
 
 
 export const AppConfig = {
-    loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
-    logoName: "Dhruvil Rathod",         // Signature font logo name in header
-    name: "Dhruvil Rathod",             // your name
+    loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
+    logoName: "Karim Zennoune",         // Signature font logo name in header
+    name: "Karim Zennoune",             // your name
     emailId: "thedhruvilrathod@gmail.com",  // your email id
 
     // Google Form Contact Link
