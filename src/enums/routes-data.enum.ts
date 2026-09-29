@@ -7,6 +7,7 @@ export enum AppRoutes {
     EDUCATION = "education",
     PROJECTS = "projects",
     ACHIEVEMENTS = "achievements",
+    TOTO = "toto",
 
     // Your google form link
     CONTACT = "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
@@ -36,17 +37,17 @@ export const RoutesData: RouteData[] = [
     {
         routeLinkText: "Achievements",
         routeURLName: AppRoutes.ACHIEVEMENTS,
-        isVisible: true,
+        isVisible: false,
     },
     {
         routeLinkText: "Contact",
         routeURLName: AppRoutes.CONTACT,
-        isVisible: true,
+        isVisible: false,
         isExternalLink: true,
     },
     {
-        routeLinkText: "Error",
-        routeURLName: AppRoutes.ERROR,
-        isVisible: false,
+        routeLinkText: "CESTDUTOTO",
+        routeURLName: AppRoutes.TOTO,
+        isVisible: true,
     },
 ]

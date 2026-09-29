@@ -1,5 +1,5 @@
 export enum AssetPaths {
-    RESUME_IT = "Dhruvil_Rathod.pdf",
+    RESUME_IT = "Karim_ZENNOUNE_CV.pdf",
     FEELING_PROUD_SVG = "assets/illustrations/FeelingProud.svg",
     DIGITAL_SOLUTIONS_SVG = "assets/illustrations/DigitalSolutions.svg",
     FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/FullStackDevelopment.svg",
@@ -36,4 +36,8 @@ export enum AssetPaths {
     ACHIEVEMENT_CPC_RSP_WIN_PIC = "assets/achievement-images/cpc-rsp-win.jpg",
     ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC = "assets/achievement-images/unisa-chancellors-letter-of-commandation-2024.png",
     SIMPLE_ICONS = "assets/simple-icons",
+    MARSAI = "assets/projects-images/marsai.png",
+    PONG = "assets/projects-images/pong.png",
+    MEMORY = "assets/projects-images/memory.png",
+    MEDIATHEQUE = "assets/projects-images/mediatheque.png",
 }

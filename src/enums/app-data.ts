@@ -245,68 +245,104 @@ const DigitalSolutionSection: SkillSection = {
 
 // Personal projects
 const PersonalProjects: ProjectSection = {
-    sectionTitle: "My Projects",
+    sectionTitle: "Mes Projets",
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
-            title: "ThreatLens AI for Velociraptor",
-            coverImagePath: AssetPaths.PROJECT_AI_VELOCIRAPTOR,
-            liveLink: AssetPaths.PROJECT_AI_VELOCIRAPTOR_PDF,
-            githubLink: "https://github.com/dhruvil-unisa/ai-velociraptor/",
-            description: "🤖 A cutting-edge AI-powered Velociraptor version built with the LLM integration using a custom MCP, prompt engineering, and fine tuning.",
-            techStack: ["Python", "Go", "Ollama", "llama.cpp"],
+            title: "Marsai film festival",
+            coverImagePath: AssetPaths.MARSAI,
+            liveLink: "https://marsai.zennoune.fr/",
+            githubLink: "https://github.com/Gersho/marsai-full",
+            description: "Site festival marsai blablabla",
+            techStack: ["Express", "React", "TailWind", "Typescript", "Docker"],
+            year: 2026,
+        },
+        {
+            title: "Pong",
+            coverImagePath: AssetPaths.PONG,
+            liveLink: "https://pong.zennoune.fr/",
+            githubLink: "https://github.com/Gersho/ft_transcendence",
+            description: "Pong en ligne server side & reconciliation",
+            techStack: ["Nest", "React", "Typescript", "Docker"],
+            year: 2023,
+        },
+                {
+            title: "Memory",
+            coverImagePath: AssetPaths.MEMORY,
+            liveLink: "https://memory.zennoune.fr/",
+            githubLink: "https://github.com/Gersho/memory",
+            description: "Jeux de Cartes Memory",
+            techStack: ["Java", "Springboot", "React", "Typescript", "Docker"],
             year: 2025,
         },
         {
-            title: "Web-Based 3D IFC File Viewer",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2022
-        },
-        {
-            title: "Customizable Multi-Select Dropdown",
-            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
-            githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
-            techStack: ["Angular", "TypeScript", "SCSS"],
-            year: 2023,
-            branch: "resource-tree-utility"
-        },
-        {
-            title: "Learning Management System",
-            coverImagePath: AssetPaths.PROJECT_LMS_APP,
-            githubLink: "https://github.com/dhruvilrathod/lms-asite",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
-            techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
-            year: 2023
-        },
-        {
-            title: "Angular + NestJS Boilerplate",
-            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
-            githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
-            techStack: ["Angular", "NestJS", "NgINX", "Docker"],
-            year: 2023
-        },
-        {
-            title: "Hospital Management System Dashboard",
-            coverImagePath: AssetPaths.PROJECT_HMS_APP,
-            githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
-            techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
-            year: 2024
-        },
-        {
-            title: "Cross-Platform Music Player",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
-            year: 2023
-        }
+            title: "Mediatheque",
+            coverImagePath: AssetPaths.MEDIATHEQUE,
+            liveLink: "https://mediatheque.zennoune.fr/",
+            githubLink: "https://github.com/Gersho/mediatheque",
+            description: "Site mediatheque multimedia, location etc...whatever",
+            techStack: ["PHP", "React", "Typescript", "Docker"],
+            year: 2026,
+        },     
+        // {
+        //     title: "ThreatLens AI for Velociraptor",
+        //     coverImagePath: AssetPaths.PROJECT_AI_VELOCIRAPTOR,
+        //     liveLink: AssetPaths.PROJECT_AI_VELOCIRAPTOR_PDF,
+        //     githubLink: "https://github.com/dhruvil-unisa/ai-velociraptor/",
+        //     description: "🤖 A cutting-edge AI-powered Velociraptor version built with the LLM integration using a custom MCP, prompt engineering, and fine tuning.",
+        //     techStack: ["Python", "Go", "Ollama", "llama.cpp"],
+        //     year: 2025,
+        // },
+        // {
+        //     title: "Web-Based 3D IFC File Viewer",
+        //     coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
+        //     liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
+        //     githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
+        //     description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
+        //     techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
+        //     year: 2022
+        // },
+        // {
+        //     title: "Customizable Multi-Select Dropdown",
+        //     coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
+        //     githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
+        //     description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
+        //     techStack: ["Angular", "TypeScript", "SCSS"],
+        //     year: 2023,
+        //     branch: "resource-tree-utility"
+        // },
+        // {
+        //     title: "Learning Management System",
+        //     coverImagePath: AssetPaths.PROJECT_LMS_APP,
+        //     githubLink: "https://github.com/dhruvilrathod/lms-asite",
+        //     description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
+        //     techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
+        //     year: 2023
+        // },
+        // {
+        //     title: "Angular + NestJS Boilerplate",
+        //     coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
+        //     githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
+        //     description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
+        //     techStack: ["Angular", "NestJS", "NgINX", "Docker"],
+        //     year: 2023
+        // },
+        // {
+        //     title: "Hospital Management System Dashboard",
+        //     coverImagePath: AssetPaths.PROJECT_HMS_APP,
+        //     githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
+        //     description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
+        //     techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
+        //     year: 2024
+        // },
+        // {
+        //     title: "Cross-Platform Music Player",
+        //     coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+        //     githubLink: "https://github.com/dhruvilrathod/music_player",
+        //     description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
+        //     techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
+        //     year: 2023
+        // }
     ]
 }
 
@@ -632,16 +668,16 @@ export const AppConfig = {
     loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
     logoName: "Karim Zennoune",         // Signature font logo name in header
     name: "Karim Zennoune",             // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    emailId: "zennoune.karim@outlook.fr",  // your email id
 
     // Google Form Contact Link
-    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
+    googleFormContactLink: "https://google.com/",
 
     // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
+    professionalTitle: "Concepteur Développeur de Solutions Informatiques",
     professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
-    githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
+    githubProfile: "https://github.com/Gersho",              // Your github profile link
+    portfolioRepository: "https://github.com/Gersho/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
@@ -654,7 +690,7 @@ export const AppConfig = {
     projectsPageTitle: "Projects & Freelancing",    // Title of projects page
     projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
     projectSections: [                  // Define and add a custom section if needed
-        FreelancingProjects,
+        // FreelancingProjects,
         PersonalProjects,
     ],
 
