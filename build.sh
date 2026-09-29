@@ -1,1 +1,0 @@
-docker build -t portfolio:1.0 . 
