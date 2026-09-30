@@ -9,34 +9,34 @@ import { AssetPaths } from "./asset-paths.enum";
 const SocialMediaLinks: ExternalSite[] = [
     {
         name: "Github",
-        link: "https://github.com/dhruvilrathod",
-        simpleIconName: "GitHub",
+        link: "https://github.com/Gersho",
+        simpleIconName: "github",
         backgroundColor: "#181717",
     },
     {
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/dhruvilrathod/",
-        simpleIconName: "LinkedIn", // this icon is not available in simple icon v14
+        simpleIconName: "linkedin", // this icon is not available in simple icon v14
         backgroundColor: "#0066c8", // manually checked
     },
+    // {
+    //     name: "LeetCode",
+    //     link: "https://leetcode.com/dhruvilrathod/",
+    //     simpleIconName: "LeetCode",
+    //     backgroundColor: "#FFA116",
+    // },
     {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "LeetCode",
-        backgroundColor: "#FFA116",
-    },
-    {
-        name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
-        simpleIconName: "Gmail",
+        name: "Mail",
+        link: "mailto:zennoune.karim@outlook.fr",
+        simpleIconName: "gmail",
         backgroundColor: "#EA4335",
     },
-    {
-        name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
-        simpleIconName: "Instagram",
-        backgroundColor: "#FF0069",
-    }
+    // {
+    //     name: "Instagram",
+    //     link: "https://www.instagram.com/dhruvil.rthd/",
+    //     simpleIconName: "Instagram",
+    //     backgroundColor: "#FF0069",
+    // }
 ]
 
 // Fullstack skills
@@ -44,27 +44,27 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "Angular",
         link: "https://angular.dev/",
-        simpleIconName: "Angular",
+        simpleIconName: "angular",
         backgroundColor: "#ea2848",
     },
     {
         name: "HTML5",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        simpleIconName: "HTML5",
+        simpleIconName: "html5",
         backgroundColor: "#E34F26",
     },
     {
         name: "CSS3",
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        simpleIconName: "CSS3",
+        simpleIconName: "css3",
         backgroundColor: "#1572B6",
     },
-    {
-        name: "Sass",
-        link: "https://sass-lang.com/",
-        simpleIconName: "Sass",
-        backgroundColor: "#CC6699",
-    },
+    // {
+    //     name: "Sass",
+    //     link: "https://sass-lang.com/",
+    //     simpleIconName: "Sass",
+    //     backgroundColor: "#CC6699",
+    // },
     {
         name: "NodeJS",
         link: "https://nodejs.org/",
@@ -74,21 +74,21 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "JavaScript",
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        simpleIconName: "JavaScript",
+        simpleIconName: "javascript",
         backgroundColor: "#F7DF1E",
     },
     {
-        name: "ExpressJS",
+        name: "expressJS",
         link: "https://expressjs.com/",
-        simpleIconName: "Express",
+        simpleIconName: "express",
         backgroundColor: "#000000",
     },
-    {
-        name: "ThreeJS",
-        link: "https://threejs.org/",
-        simpleIconName: "Three.js",
-        backgroundColor: "#000000",
-    },
+    // {
+    //     name: "ThreeJS",
+    //     link: "https://threejs.org/",
+    //     simpleIconName: "Three.js",
+    //     backgroundColor: "#000000",
+    // },
     {
         name: "Tailwind CSS",
         link: "https://tailwindcss.com/",
@@ -98,13 +98,13 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "Bootstrap",
         link: "https://getbootstrap.com/",
-        simpleIconName: "Bootstrap",
+        simpleIconName: "bootstrap",
         backgroundColor: "#7952B3",
     },
     {
-        name: "PrimeNG",
-        link: "https://primeng.org/",
-        simpleIconName: "PrimeNG",
+        name: "Java",
+        link: "https://java.com/",
+        simpleIconName: "Java_Logo",
         backgroundColor: "#DD0031",
     },
 ];
@@ -188,30 +188,30 @@ const CloudSection: SkillSection = {
 
 // Design skills
 const DesignSkills: ExternalSite[] = [
-    {
-        name: "Adobe XD",
-        link: "https://adobexdplatform.com/",
-        simpleIconName: "Adobe XD",
-        backgroundColor: "#FF2BC2",
-    },
+    // {
+    //     name: "Adobe XD",
+    //     link: "https://adobexdplatform.com/",
+    //     simpleIconName: "Adobe XD",
+    //     backgroundColor: "#FF2BC2",
+    // },
     {
         name: "Figma",
         link: "https://figma.com/",
-        simpleIconName: "Figma",
+        simpleIconName: "figma",
         backgroundColor: "#F24E1E",
     },
-    {
-        name: "Adobe Illustrator",
-        link: "https://www.adobe.com/au/products/illustrator.html/",
-        simpleIconName: "Adobe Illustrator",
-        backgroundColor: "#FF7C00",
-    },
-    {
-        name: "Adobe Photoshop",
-        link: "https://www.adobe.com/products/photoshop.html/",
-        simpleIconName: "Adobe Photoshop",
-        backgroundColor: "#001e36",
-    },
+    // {
+    //     name: "Adobe Illustrator",
+    //     link: "https://www.adobe.com/au/products/illustrator.html/",
+    //     simpleIconName: "Adobe Illustrator",
+    //     backgroundColor: "#FF7C00",
+    // },
+    // {
+    //     name: "Adobe Photoshop",
+    //     link: "https://www.adobe.com/products/photoshop.html/",
+    //     simpleIconName: "Adobe Photoshop",
+    //     backgroundColor: "#001e36",
+    // },
 ];
 
 // Design section
@@ -681,9 +681,9 @@ export const AppConfig = {
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
-        CloudSection,
-        DesignSection,
-        DigitalSolutionSection,
+        // CloudSection,
+        // DesignSection,
+        // DigitalSolutionSection,
     ],
 
     // Projects page

@@ -5,6 +5,19 @@
 
 @import "./css/variables.scss";
 
+
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400; // Normal weight
+  font-display: swap;
+  src: local("Roboto Mono Regular"),
+       local("RobotoMono-Regular"),
+       url("/assets/fonts/RobotoMono-Regular.woff2") format("woff2"),
+       url("/assets/fonts/RobotoMono-Regular.woff") format("woff");
+}
+
 @font-face {
     font-family: "Agustina Regular";
     font-style: normal;

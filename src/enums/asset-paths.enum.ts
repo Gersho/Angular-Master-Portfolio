@@ -1,5 +1,5 @@
 export enum AssetPaths {
-    RESUME_IT = "Karim_ZENNOUNE_CV.pdf",
+    RESUME_IT = "ZENNOUNE_Karim_CV.pdf",
     FEELING_PROUD_SVG = "assets/illustrations/FeelingProud.svg",
     DIGITAL_SOLUTIONS_SVG = "assets/illustrations/DigitalSolutions.svg",
     FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/FullStackDevelopment.svg",
