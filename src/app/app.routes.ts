@@ -24,21 +24,21 @@ export const routes: Routes = [
         component: ExperienceComponent,
         title: `Experience | Karim Zennoune Portfolio`,
     },
-    {
-        path: AppRoutes.EDUCATION,
-        component: EducationComponent,
-        title: `Education | Karim Zennoune Portfolio`,
-    },
+    // {
+    //     path: AppRoutes.EDUCATION,
+    //     component: EducationComponent,
+    //     title: `Education | Karim Zennoune Portfolio`,
+    // },
     // {
     //     path: AppRoutes.ACHIEVEMENTS,
     //     component: AchievementsComponent,
     //     title: `Achievements | Karim Zennoune Portfolio`,
     // },   
-    {
-        path: AppRoutes.TOTO,
-        component: TotoComponent,
-        title: `TOTOTOTO | Karim Zennoune Portfolio`,
-    },
+    // {
+    //     path: AppRoutes.TOTO,
+    //     component: TotoComponent,
+    //     title: `TOTOTOTO | Karim Zennoune Portfolio`,
+    // },
     {
         path: AppRoutes.ERROR,
         component: ErrorComponent,

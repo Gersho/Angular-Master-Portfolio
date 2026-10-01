@@ -105,20 +105,17 @@ const FullstackSkills: ExternalSite[] = [
         name: "Java",
         link: "https://java.com/",
         simpleIconName: "Java_Logo",
-        backgroundColor: "#DD0031",
+        backgroundColor: "#000000",
     },
 ];
 
 // Fullstack section
 const FullstackSection: SkillSection = {
-    sectionTitle: "Fullstack Development",
+    sectionTitle: "FrontEnd",
     imagePath: AssetPaths.FULL_STACK_DEVELOPMENT_SVG,
     skillLinks: FullstackSkills,
     skillsList: [
-        "Building responsive website front-end using Angular",
-        "Developing custom and interactive 3D websites",
-        "Creating application backend in Node, Express & NestJS",
-        "Managing data safely with PostgreSQL, MongoDB and OracleDB",
+        "Construire des sites responsives en React",
     ]
 }
 
@@ -176,13 +173,13 @@ const CloudSkills: ExternalSite[] = [
 
 // Could section
 const CloudSection: SkillSection = {
-    sectionTitle: "Cloud Infra-Architecture",
+    sectionTitle: "BackEnd",
     imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
     skillLinks: CloudSkills,
     skillsList: [
-        "Experience working on multiple cloud platforms including GCP, AWS, FireBase, and Render",
-        "Hosting and maintaining websites on FireBase hosting and GoDaddy along with integration of databases",
-        "Setting up email triggers and Googlesheet integration for streamline client inquiry",
+        "Construire des API REST",
+        "Produire du code propre",
+        "Gérer des bases de données relationelles",
     ]
 }
 
@@ -216,24 +213,35 @@ const DesignSkills: ExternalSite[] = [
 
 // Design section
 const DesignSection: SkillSection = {
-    sectionTitle: "UI/UX Design",
+    sectionTitle: "Software",
     imagePath: AssetPaths.UI_UX_DESIGN_SVG,
     skillLinks: DesignSkills,
     skillsList: [
-        "Designing highly attractive and responsive user interface for web applications",
-        "Customizing logo designs, creating visiting cards and virtual cards from scratch",
+        "Réaliser des logiciels en C/C++/Rust",
+        "Programation impérative, Programation fonctionelle",
         "Creating the flow of application functionalities to optimize user experience",
     ]
 }
 
 // Design skills
 const DigitalSolutionSkills: ExternalSite[] = [
-
+    // {
+    //     name: "Adobe XD",
+    //     link: "https://adobexdplatform.com/",
+    //     simpleIconName: "Adobe XD",
+    //     backgroundColor: "#FF2BC2",
+    // },
+    {
+        name: "Figma",
+        link: "https://figma.com/",
+        simpleIconName: "figma",
+        backgroundColor: "#F24E1E",
+    },
 ];
 
 // Design section
 const DigitalSolutionSection: SkillSection = {
-    sectionTitle: "Digital Solutions & Consultancy",
+    sectionTitle: "Devops",
     imagePath: AssetPaths.DIGITAL_SOLUTIONS_SVG,
     skillLinks: DigitalSolutionSkills,
     skillsList: [
@@ -390,63 +398,67 @@ const FreelancingProjects: ProjectSection = {
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Work Experience",
+    experienceSectionTitle: "Expérience",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgLink: "https://laplateforme.io/atelier/",
+            orgLogoPath: AssetPaths.WORK_ATELIER_LOGO,
+            orgName: "L'Atelier_",
             positions: [
                 {
-                    positionName: "ICT Administrator / Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
-                    locationType: "On-Site",
-                    jobType: "Part-time",
+                    positionName: "Alternance: Développeur web et web mobile",
+                    duration: "2025 - 2026 (4 mois)",
+                    location: "Lyon",
+                    // locationType: "On-Site",
+                    // jobType: "Part-time",
                     workPoints: [
-                        "Managing internal IT Administration operations and technical support with AAD, Veeam backup and recovery, and configuration of internal NAS with Synology hardware. 🖥️🔧",
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+"Intégration & Frontend : Conception d'interfaces utilisateur réactives (responsive), intégration de maquettes (HTML5, CSS3, JavaScript) et utilisation de frameworks modern (React, Tailwind).",
+"Développement Backend & API : Création d'architectures applicatives, développement d'API REST (Express, PHP, Python) et gestion des bases de données SQL.",
+"DevOps, Versioning & Tests : Gestion du code source via Git/GitHub, écriture de tests unitaires/d'intégration, déploiement continu (Docker, CI/CD) en environnement de production (VPS) et routing (Traefik).",
+"Méthodes Agiles & Gestion de Projet : Rapprochement des besoins métiers, participation aux rituels Agiles (Scrum, Kanban) et rédaction de documentations techniques."
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://sognos.com.au/",
-            orgLogoPath: AssetPaths.WORK_SOGNOS_LOGO,
-            orgName: "Sognos Solutions",
+            orgLink: "https://www.sig-guadeloupe.fr/",
+            orgLogoPath: AssetPaths.WORK_SIG_LOGO,
+            orgName: "SIG - Société Immobilière de la Guadeloupe",
             positions: [
                 {
-                    positionName: "Junior Dynamics 365 Administrator",
-                    duration: "May 2025 - Oct 2025",
-                    location: "Sydney, NSW",
-                    locationType: "Remote",
-                    jobType: "Contract",
+                    positionName: "Stage en entreprise: Administration Système et Réseau",
+                    duration: "2015 (1 mois)",
+                    location: "Les Abymes, Guadeloupe",
+                    // locationType: "Remote",
+                    // jobType: "Contract",
                     workPoints: [
-                        "Developed and configured Canvas & Model-driven Apps, Power Automate flows, and Power BI dashboards, supporting integrations with Microsoft 365, Dynamics 365 CRM, and Dataverse using JavaScript, C# and .NET.",   
-                        "Worked with Dataverse and structured datasets to extract, analyse, and present insights to stakeholders.",
-                        "Assisted with testing and documentation, ensuring to deliver high-quality & efficient Power Platform solutions with business intelligence for Healthcare, Disability, Aged-care and Field services sectors.",
+"Support & Gestion du Parc Informatique : Assistance aux utilisateurs (N1/N2), résolution d'incidents, masterisation et déploiement de postes de travail.",
+
+"Administration Systèmes (Linux / Windows) : Gestion des utilisateurs et des accès (Active Directory, GPO, SSH), configuration de services de base (DNS, DHCP) et gestion des sauvegardes.",
+"Réseau & Sécurité : Participation à la configuration d'équipements réseau (switchs, VLANs, VPN), supervision de l'état des serveurs et application des règles de sécurité.",
+
+"Documentation & Automatisation : Rédaction de procédures techniques pour l'équipe informatique et création de scripts d'automatisation simples (Bash / PowerShell)."
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "",
+            orgLogoPath: AssetPaths.EMPTY,
+            orgName: "",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
+                    positionName: "Gérant d'un débit de boissons",
+                    duration: "2012 - 2018",
+                    location: "Le Moule, Guadeloupe",
+                    // locationType: "Hybrid",
+                    // jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+"Gestion d'Entreprise & Sens du Service (Gérant) : Pilotage d'activité, suivi de la rentabilité, gestion de stock et gestion de la relation client sous forte affluence.",
+"Résolution de Problèmes & Prise de Décision : Gestion du stress, autonomie complète et prise de décision rapide face aux imprévus opérationnels.",
+
+"Conformité & Cadre Réglementaire (Licence 4) : Application stricte des normes juridiques, d'hygiène et de sécurité, démontrant rigueur et respect des processus.",
+"Management & Communication : Recrutement, encadrement d'équipe, médiation et communication interpersonnelle efficace."
                     ]
                 }
             ]
@@ -536,52 +548,82 @@ const FreelancingExperience: ExperienceSection = {
 
 // Internships Experience
 const InternshipExperience: ExperienceSection = {
-    experienceSectionTitle: "Internships",
+    experienceSectionTitle: "Formations",
     experiences: [
         {
-            orgLink: "https://asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "https://laplateforme.io/",
+            orgLogoPath: AssetPaths.WORK_PLATEFORME_LOGO,
+            orgName: "LaPlateforme_",
             positions: [
                 {
-                    positionName: "UI Developer Intern",
-                    duration: "Feb 2023 - May 2023",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
+                    positionName: "Développeur web et web mobile",
+                    duration: "Juillet 2025 - Octobre 2026",
+                    location: "Lyon",
+                    // locationType: "Hybrid",
+                    // jobType: "Full-time",
                     workPoints: [
-                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. 🚀💻",
-                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. 🌟📊✨",
+"Algorithmique & Fondamentaux du Web : Apprentissage de la logique de programmation, intégration web responsive (HTML5, CSS3, Tailwind) et dynamisation d'interfaces en JavaScript.",
+
+"Développement Full-Stack & Frameworks : Conception d'applications dynamiques et accessibles (RGAA) avec des technologies modernes en Front-end (React) et Back-end (Express, PHP, Java).",
+
+"Bases de Données & Conception Software : Modélisation de données (UML, Merise), conception et manipulation de bases SQL (MySQL), utilisation d'ORM (Jakarta/JPA) et création d'API RESTful.",
+
+"Méthodologies, DevOps & Bonnes Pratiques : Utilisation de Git/GitHub, conteneurisation (Docker), déploiement (VPS, CI/CD), routing (Traefik), sensibilisation aux méthodes Agiles (Scrum), à la sécurité web."
+
                     ]
                 },
+                // {
+                //     positionName: "Software Engineering Intern",
+                //     duration: "Jun 2022 — Jul 2022",
+                //     location: "Ahmedabad, India",
+                //     locationType: "On-Site",
+                //     jobType: "Full-time",
+                //     workPoints: [
+                //         "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
+                //         "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
+                //     ]
+                // }
+            ]
+        },
+        {
+            orgLink: "https://42lyon.fr/",
+            orgLogoPath: AssetPaths.WORK_FORTYTWO_LOGO,
+            orgName: "42 Lyon Auvergne-Rhône-Alpes",
+            positions: [
                 {
-                    positionName: "Software Engineering Intern",
-                    duration: "Jun 2022 — Jul 2022",
-                    location: "Ahmedabad, India",
-                    locationType: "On-Site",
-                    jobType: "Full-time",
+                    positionName: "Concepteur Développeur d'Applications",
+                    duration: "Novembre 2020 — Novembre 2024",
+                    location: "Lyon",
+                    // locationType: "Remote",
+                    // jobType: "Part-time",
                     workPoints: [
-                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
-                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
+                        "Ingénierie & Bas Niveau (C / C++ / Assembly) : Conception de projets système complexes (ft_containers, ft_irc, libasm).",
+                        "Cybersécurité & Reverse Engineering : Exploitation de binaires, analyse de vulnérabilités et rétro-ingénierie (snow-crash, rainfall, override).",
+                        "Réseau & Performance Temps Réel : Développement d'infrastructures réseau (ft_irc, Inception) et optimisation des latences (WebSockets, prédiction client et interpolation d'états).",
+                        "Méthode 42 (Niveau 16) : Réalisation de +30 projets en peer-learning (Niveau 16)"
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://workxmate.com/",
-            orgLogoPath: AssetPaths.WORK_WORKXMATE_LOGO,
-            orgName: "WorkXMate Technologies Pvt. Ltd.",
+            orgLink: "https://www.fore.fr/",
+            orgLogoPath: AssetPaths.WORK_FORE_LOGO,
+            orgName: "FORE Formation",
             positions: [
                 {
-                    positionName: "Angular Developer Internship",
-                    duration: "Feb 2022 — Mar 2022",
-                    location: "Noida, India",
-                    locationType: "Remote",
-                    jobType: "Part-time",
+                    positionName: "Technicien supérieur de support en informatique",
+                    duration: "2014 - 2015",
+                    location: "Baie-Mahault, Guadeloupe",
+                    // locationType: "Remote",
+                    // jobType: "Part-time",
                     workPoints: [
-                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. 🌐✔️",
-                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. 🚀📊",
-                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. 🖋️⚙️✨",
+"Support & Assistance Utilisateurs : Prise en charge des incidents (Niveaux 1 et 2), diagnostic, résolution et suivi via des outils de ticketing (ITIL / GLPI).",
+
+"Administration Systèmes & Réseaux : Gestion et déploiement de parcs informatiques (Windows / Linux), gestion des identités via Active Directory / OpenLDAP et services réseau de base (DHCP, DNS, VPN).",
+
+"Maintenance & Sécurité Opérationnelle : Assemblage, configuration matériel, sauvegarde des données, déploiement d'images système et application des bonnes pratiques de cybersécurité.",
+
+"Gestion d'Incidents & Communication : Rédaction de documentations techniques, procédures et guides utilisateurs pour optimiser l'autonomie des collaborateurs.",
                     ]
                 }
             ]
@@ -681,9 +723,9 @@ export const AppConfig = {
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
-        // CloudSection,
-        // DesignSection,
-        // DigitalSolutionSection,
+        CloudSection,
+        DesignSection,
+        DigitalSolutionSection,
     ],
 
     // Projects page
@@ -695,12 +737,12 @@ export const AppConfig = {
     ],
 
     // Experience page
-    experiencePageTitle: "My Works, Internships and Freelancing",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
+    experiencePageTitle: "Expériences Professionnelles et Formations",
+    experiencePageDescription: "",
     experienceSections: [               // Define and add a custom section if needed
-        JobExperience,
         InternshipExperience,
-        FreelancingExperience,
+        JobExperience,
+        // FreelancingExperience,
     ],
 
     // Education page
