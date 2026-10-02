@@ -15,20 +15,22 @@
       </a>
     </div>
 
-    <div class="p-6">
-      <a
-        [href]="projectData().liveLink ?? projectData().githubLink"
-        target="_blank"
-        class="title-font text-xl font-bold text-gray-900 mb-3"
-      >
-        {{ projectData().title }}
-      </a>
+    <div class="p-6 h-[350px] flex flex-col justify-around">
+      <div class="flex flex-col">
+        <a
+          [href]="projectData().liveLink ?? projectData().githubLink"
+          target="_blank"
+          class="title-font text-xl font-bold text-gray-900 mb-3"
+        >
+          {{ projectData().title }}
+        </a>
 
-      <h2
-        class="text-gray-400 items-center ml-auto leading-none title-font py-1 border-gray-600"
-      >
-        {{ projectData().year }}
-      </h2>
+        <h2
+          class="text-gray-400 self-center m-auto leading-none title-font py-1 border-gray-600"
+        >
+          {{ projectData().year }}
+        </h2>
+      </div>
 
       <h2
         class="tracking-widest text-sm my-4 title-font font-medium text-gray-600"
@@ -37,39 +39,35 @@
       </h2>
 
       <p
-        class="description-text leading-relaxed text-left text-lg mb-3 h-48"
+        class="description-text leading-relaxed text-left text-lg mb-3 h-48 overflow-y-scroll"
         [title]="projectData().description"
       >
         {{ projectData().description }}
       </p>
 
-      <div class="flex items-center flex-wrap p-1">
+      <div class="flex justify-end flex-wrap p-1">
         <a
           target="_blank"
           [href]="projectData().githubLink ?? projectData().liveLink"
-          class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+          class="text-indigo-500 inline-flex md:mb-2 lg:mb-0"
         >
           <img
-            class="h-6 md:h-9"
+            class="h-6 md:h-9 px-2"
             src="{{ assetPaths.SIMPLE_ICONS }}/github.svg"
+            alt="Voir sur Github"
           />
-
-          <span class="pl-2">Voir sur GitHub</span>
         </a>
-      </div>
 
-      <div class="flex items-center flex-wrap p-1">
         <a
           target="_blank"
           [href]="projectData().liveLink ?? projectData().githubLink"
-          class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+          class="text-indigo-500 inline-flex md:mb-2 lg:mb-0"
         >
           <img
-            class="h-6 md:h-9"
+            class="h-6 md:h-9 px-2"
             src="{{ assetPaths.SIMPLE_ICONS }}/world-globe-line-icon.svg"
+            alt="Voir sur le site"
           />
-
-          <span class="pl-2">Voir le site</span>
         </a>
       </div>
     </div>
