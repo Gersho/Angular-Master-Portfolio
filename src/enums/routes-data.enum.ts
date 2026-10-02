@@ -15,17 +15,17 @@ export enum AppRoutes {
 
 export const RoutesData: RouteData[] = [
     {
-        routeLinkText: "Home",
+        routeLinkText: "Accueil",
         routeURLName: AppRoutes.HOME,
         isVisible: true,
     },
     {
-        routeLinkText: "Projects",
+        routeLinkText: "Projets",
         routeURLName: AppRoutes.PROJECTS,
         isVisible: true,
     },
     {
-        routeLinkText: "Experience",
+        routeLinkText: "Parcours",
         routeURLName: AppRoutes.EXPERIENCE,
         isVisible: true,
     },

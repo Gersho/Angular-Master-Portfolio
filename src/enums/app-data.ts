@@ -15,7 +15,7 @@ const SocialMediaLinks: ExternalSite[] = [
     },
     {
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/dhruvilrathod/",
+        link: "https://www.linkedin.com/in/karim-zennoune-1354b8192/",
         simpleIconName: "linkedin", // this icon is not available in simple icon v14
         backgroundColor: "#0066c8", // manually checked
     },
@@ -41,12 +41,12 @@ const SocialMediaLinks: ExternalSite[] = [
 
 // Fullstack skills
 const FullstackSkills: ExternalSite[] = [
-    {
-        name: "Angular",
-        link: "https://angular.dev/",
-        simpleIconName: "angular",
-        backgroundColor: "#ea2848",
-    },
+    // {
+    //     name: "Angular",
+    //     link: "https://angular.dev/",
+    //     simpleIconName: "angular",
+    //     backgroundColor: "#ea2848",
+    // },
     {
         name: "HTML5",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -59,30 +59,30 @@ const FullstackSkills: ExternalSite[] = [
         simpleIconName: "css3",
         backgroundColor: "#1572B6",
     },
+    {
+        name: "React",
+        link: "https://react.dev/",
+        simpleIconName: "react",
+        backgroundColor: "#CC6699",
+    },
     // {
-    //     name: "Sass",
-    //     link: "https://sass-lang.com/",
-    //     simpleIconName: "Sass",
-    //     backgroundColor: "#CC6699",
+    //     name: "NodeJS",
+    //     link: "https://nodejs.org/",
+    //     simpleIconName: "Node.js",
+    //     backgroundColor: "#5FA04E",
     // },
-    {
-        name: "NodeJS",
-        link: "https://nodejs.org/",
-        simpleIconName: "Node.js",
-        backgroundColor: "#5FA04E",
-    },
-    {
-        name: "JavaScript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        simpleIconName: "javascript",
-        backgroundColor: "#F7DF1E",
-    },
-    {
-        name: "expressJS",
-        link: "https://expressjs.com/",
-        simpleIconName: "express",
-        backgroundColor: "#000000",
-    },
+    // {
+    //     name: "JavaScript",
+    //     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    //     simpleIconName: "javascript",
+    //     backgroundColor: "#F7DF1E",
+    // },
+    // {
+    //     name: "expressJS",
+    //     link: "https://expressjs.com/",
+    //     simpleIconName: "express",
+    //     backgroundColor: "#000000",
+    // },
     // {
     //     name: "ThreeJS",
     //     link: "https://threejs.org/",
@@ -101,12 +101,12 @@ const FullstackSkills: ExternalSite[] = [
         simpleIconName: "bootstrap",
         backgroundColor: "#7952B3",
     },
-    {
-        name: "Java",
-        link: "https://java.com/",
-        simpleIconName: "Java_Logo",
-        backgroundColor: "#000000",
-    },
+    // {
+    //     name: "Java",
+    //     link: "https://java.com/",
+    //     simpleIconName: "Java_Logo",
+    //     backgroundColor: "#000000",
+    // },
 ];
 
 // Fullstack section
@@ -115,94 +115,140 @@ const FullstackSection: SkillSection = {
     imagePath: AssetPaths.FULL_STACK_DEVELOPMENT_SVG,
     skillLinks: FullstackSkills,
     skillsList: [
-        "Construire des sites responsives en React",
+"HTML5, CSS3, JavaScript, Typescript, React.",
+
+"Tailwind CSS, intégration responsive et conformité aux normes d'accessibilité (RGAA).",
+ "Synchronisation d'interfaces via WebSockets (prédiction client, interpolation)."
     ]
 }
 
 // Could skills
 const CloudSkills: ExternalSite[] = [
     {
-        name: "GCP",
-        link: "https://cloud.google.com/",
-        simpleIconName: "Google Cloud",
-        backgroundColor: "#4285F4",
+        name: "NodeJS",
+        link: "https://nodejs.org/",
+        simpleIconName: "Node.js",
+        backgroundColor: "#5FA04E",
     },
     {
-        name: "AWS",
-        link: "https://aws.amazon.com/",
-        simpleIconName: "Amazon Web Services",
-        backgroundColor: "#232F3E",
+        name: "JavaScript",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        simpleIconName: "javascript",
+        backgroundColor: "#F7DF1E",
     },
     {
-        name: "Firebase",
-        link: "https://firebase.google.com/",
-        simpleIconName: "Firebase",
-        backgroundColor: "#FFCA28",
-    },
-    {
-        name: "PostgreSQL",
-        link: "https://www.postgresql.org/",
-        simpleIconName: "PostgreSQL",
-        backgroundColor: "#336791",
-    },
-    {
-        name: "MongoDB",
-        link: "https://www.mongodb.com/",
-        simpleIconName: "MongoDB",
-        backgroundColor: "#47A248",
-    },
-    {
-        name: "Docker",
-        link: "https://www.docker.com/",
-        simpleIconName: "Docker",
-        backgroundColor: "#1488C6",
-    },
-    {
-        name: "Render",
-        link: "https://render.com/",
-        simpleIconName: "Render",
+        name: "expressJS",
+        link: "https://expressjs.com/",
+        simpleIconName: "express",
         backgroundColor: "#000000",
     },
     {
-        name: "Heroku",
-        link: "https://www.heroku.com/",
-        simpleIconName: "Heroku",
-        backgroundColor: "#430098",
+        name: "Java",
+        link: "https://java.com/",
+        simpleIconName: "Java_Logo",
+        backgroundColor: "#3a75b0",
     },
+    {
+        name: "PHP",
+        link: "https://php.net/",
+        simpleIconName: "php",
+        backgroundColor: "#4f5b93",
+    },
+        {
+        name: "MySQL",
+        link: "https://www.mysql.com/",
+        simpleIconName: "mysql",
+        backgroundColor: "#3e6e93",
+    },
+
+    // {
+    //     name: "GCP",
+    //     link: "https://cloud.google.com/",
+    //     simpleIconName: "Google Cloud",
+    //     backgroundColor: "#4285F4",
+    // },
+    // {
+    //     name: "AWS",
+    //     link: "https://aws.amazon.com/",
+    //     simpleIconName: "Amazon Web Services",
+    //     backgroundColor: "#232F3E",
+    // },
+    // {
+    //     name: "Firebase",
+    //     link: "https://firebase.google.com/",
+    //     simpleIconName: "Firebase",
+    //     backgroundColor: "#FFCA28",
+    // },
+    // {
+    //     name: "PostgreSQL",
+    //     link: "https://www.postgresql.org/",
+    //     simpleIconName: "PostgreSQL",
+    //     backgroundColor: "#336791",
+    // },
+    // {
+    //     name: "MongoDB",
+    //     link: "https://www.mongodb.com/",
+    //     simpleIconName: "MongoDB",
+    //     backgroundColor: "#47A248",
+    // },
+    // {
+    //     name: "Docker",
+    //     link: "https://www.docker.com/",
+    //     simpleIconName: "Docker",
+    //     backgroundColor: "#1488C6",
+    // },
+    // {
+    //     name: "Render",
+    //     link: "https://render.com/",
+    //     simpleIconName: "Render",
+    //     backgroundColor: "#000000",
+    // },
+    // {
+    //     name: "Heroku",
+    //     link: "https://www.heroku.com/",
+    //     simpleIconName: "Heroku",
+    //     backgroundColor: "#430098",
+    // },
 ];
 
 // Could section
 const CloudSection: SkillSection = {
     sectionTitle: "BackEnd",
-    imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
+    imagePath: AssetPaths.BACKEND_PNG,
     skillLinks: CloudSkills,
     skillsList: [
-        "Construire des API REST",
-        "Produire du code propre",
-        "Gérer des bases de données relationelles",
+"Java, PHP, JavaScript (Node.js/Express)",
+"Conception d'API RESTful, architecture microservices, programmation orientée objet (POO)",
+"Modélisation (UML, Merise), gestion de bases de données SQL (MySQL) et persistance avec ORM (Jakarta JPA/Hibernate)."
     ]
 }
 
 // Design skills
 const DesignSkills: ExternalSite[] = [
-    // {
-    //     name: "Adobe XD",
-    //     link: "https://adobexdplatform.com/",
-    //     simpleIconName: "Adobe XD",
-    //     backgroundColor: "#FF2BC2",
-    // },
     {
-        name: "Figma",
-        link: "https://figma.com/",
-        simpleIconName: "figma",
+        name: "C",
+        link: "https://www.c-language.org/",
+        simpleIconName: "c",
+        backgroundColor: "#FF2BC2",
+    },
+    {
+        name: "C++",
+        link: "https://isocpp.org/",
+        simpleIconName: "cplusplus",
         backgroundColor: "#F24E1E",
     },
-    // {
-    //     name: "Adobe Illustrator",
-    //     link: "https://www.adobe.com/au/products/illustrator.html/",
-    //     simpleIconName: "Adobe Illustrator",
-    //     backgroundColor: "#FF7C00",
-    // },
+    {
+        name: "Rust",
+        link: "https://rust-lang.org/",
+        simpleIconName: "rust",
+        backgroundColor: "#FF7C00",
+    },
+    {
+        name: "Java",
+        link: "https://java.com/",
+        simpleIconName: "Java_Logo",
+        backgroundColor: "#3a75b0",
+    },
     // {
     //     name: "Adobe Photoshop",
     //     link: "https://www.adobe.com/products/photoshop.html/",
@@ -214,12 +260,13 @@ const DesignSkills: ExternalSite[] = [
 // Design section
 const DesignSection: SkillSection = {
     sectionTitle: "Software",
-    imagePath: AssetPaths.UI_UX_DESIGN_SVG,
+    imagePath: AssetPaths.SOFTWARE_PNG,
     skillLinks: DesignSkills,
     skillsList: [
-        "Réaliser des logiciels en C/C++/Rust",
-        "Programation impérative, Programation fonctionelle",
-        "Creating the flow of application functionalities to optimize user experience",
+"Langages & Paradigmes : C, C++, Rust, Java — programmation impérative, orientée objet et fonctionnelle.",
+
+"Système & Concurrence : Développement système, gestion manuelle de la mémoire, programmation multithread et synchronisation de processus.",
+
     ]
 }
 
@@ -232,22 +279,62 @@ const DigitalSolutionSkills: ExternalSite[] = [
     //     backgroundColor: "#FF2BC2",
     // },
     {
-        name: "Figma",
-        link: "https://figma.com/",
-        simpleIconName: "figma",
-        backgroundColor: "#F24E1E",
+        name: "AWS",
+        link: "https://aws.amazon.com/",
+        simpleIconName: "Amazon Web Services",
+        backgroundColor: "#232F3E",
+    },
+    {
+        name: "OVH",
+        link: "https://www.ovhcloud.com/",
+        simpleIconName: "ovh",
+        backgroundColor: "#000e9c",
+    },
+    // {
+    //     name: "MySQL",
+    //     link: "https://www.mysql.com/",
+    //     simpleIconName: "mysql",
+    //     backgroundColor: "#3e6e93",
+    // },
+    {
+        name: "Docker",
+        link: "https://www.docker.com/",
+        simpleIconName: "docker",
+        backgroundColor: "#1488C6",
+    },
+    {
+        name: "Traefik",
+        link: "https://traefik.io/",
+        simpleIconName: "traefikproxy",
+        backgroundColor: "#000000",
+    },
+    {
+        name: "git",
+        link: "https://git-scm.com/",
+        simpleIconName: "git",
+        backgroundColor: "#f0f0e8",
+    },
+    {
+        name: "Github",
+        link: "https://github.com/Gersho",
+        simpleIconName: "github",
+        backgroundColor: "#181717",
     },
 ];
 
 // Design section
 const DigitalSolutionSection: SkillSection = {
     sectionTitle: "Devops",
-    imagePath: AssetPaths.DIGITAL_SOLUTIONS_SVG,
+    imagePath: AssetPaths.DEVOPS_PNG,
     skillLinks: DigitalSolutionSkills,
     skillsList: [
-        "Streamlining business operations with tools like Jira, offering automated workflows, and data-driven insights.",
-        "Centralizing business data within secure, interconnected platforms to facilitate informed decision-making",
-        "Helping local businesses enable real-time communication and task coordination through MS Teams and Outlook",
+"Docker, Docker Compose et déploiement d'architectures conteneurisées (Inception).",
+
+"Reverse proxy (Traefik), administration réseau (VLAN, VPN, DNS, DHCP, SSH) et protocoles (HTTP, WebSockets).",
+
+"Déploiement sur VPS Linux, intégration/déploiement continus (CI/CD) et gestion de version avec Git/GitHub.",
+
+"Administration système (Linux/Windows), gestion des accès/identités (Active Directory) et rédaction de documentations techniques."
     ]
 }
 
@@ -398,7 +485,7 @@ const FreelancingProjects: ProjectSection = {
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Expérience",
+    experienceSectionTitle: "Expériences",
     experiences: [
         {
             orgLink: "https://laplateforme.io/atelier/",
@@ -717,15 +804,15 @@ export const AppConfig = {
 
     // Home page
     professionalTitle: "Concepteur Développeur de Solutions Informatiques",
-    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
+    professionalSummary: "Développeur logiciel Full-Stack combinant expertise bas niveau (C/C++, Rust), architectures web modernes et culture DevOps en environnement Agile.",
     githubProfile: "https://github.com/Gersho",              // Your github profile link
     portfolioRepository: "https://github.com/Gersho/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
         CloudSection,
-        DesignSection,
         DigitalSolutionSection,
+        DesignSection,
     ],
 
     // Projects page
