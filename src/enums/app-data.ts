@@ -63,7 +63,7 @@ const FullstackSkills: ExternalSite[] = [
         name: "React",
         link: "https://react.dev/",
         simpleIconName: "react",
-        backgroundColor: "#CC6699",
+        backgroundColor: "#087ea4",
     },
     // {
     //     name: "NodeJS",
@@ -146,7 +146,7 @@ const CloudSkills: ExternalSite[] = [
         name: "Java",
         link: "https://java.com/",
         simpleIconName: "Java_Logo",
-        backgroundColor: "#3a75b0",
+        backgroundColor: "#f7f7f7",
     },
     {
         name: "PHP",
@@ -160,7 +160,6 @@ const CloudSkills: ExternalSite[] = [
         simpleIconName: "mysql",
         backgroundColor: "#3e6e93",
     },
-
     // {
     //     name: "GCP",
     //     link: "https://cloud.google.com/",
@@ -229,13 +228,13 @@ const DesignSkills: ExternalSite[] = [
         name: "C",
         link: "https://www.c-language.org/",
         simpleIconName: "c",
-        backgroundColor: "#FF2BC2",
+        backgroundColor: "#ffffff",
     },
     {
         name: "C++",
         link: "https://isocpp.org/",
         simpleIconName: "cplusplus",
-        backgroundColor: "#F24E1E",
+        backgroundColor: "#00589c",
     },
     {
         name: "Rust",
@@ -247,7 +246,7 @@ const DesignSkills: ExternalSite[] = [
         name: "Java",
         link: "https://java.com/",
         simpleIconName: "Java_Logo",
-        backgroundColor: "#3a75b0",
+        backgroundColor: "#f7f7f7",
     },
     // {
     //     name: "Adobe Photoshop",
@@ -312,7 +311,7 @@ const DigitalSolutionSkills: ExternalSite[] = [
         name: "git",
         link: "https://git-scm.com/",
         simpleIconName: "git",
-        backgroundColor: "#f0f0e8",
+        backgroundColor: "#f54d27",
     },
     {
         name: "Github",
